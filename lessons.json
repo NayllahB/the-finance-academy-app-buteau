@@ -1,0 +1,17 @@
+{
+    "lessons": [
+        {
+            "id":"student-loan-basics",
+            "lesson-title": "What are Student Loans?",
+            "lesson-tagline": "The bane of every student's existence",
+            "content": "Student loans are money borrowed to pay for education, and they must be repaid with interest, which is the extra cost added by the lender over time. They come in two main forms: federal loans, which are issued by the government and usually offer lower interest rates and flexible repayment options, and private loans, which come from banks or other financial institutions and often cost more. Because student loans follow you even if you change majors, take longer to graduate, or don’t finish school, understanding how much you borrow, how interest grows, and what repayment will look like after graduation is essential for making smart long‑term financial decisions."
+        },
+        {
+            "id":"credit-card-basics",
+            "lesson-title": "What is a Credit Card?",
+            "lesson-tagline": "Because adulthood needed a plot twist",
+            "content": "Credit cards are essentially short‑term loans wrapped in a tiny piece of plastic, convenient, powerful, and a little dangerous if you don’t understand how they work. When you swipe, you’re borrowing money from the bank, and if you don’t pay the full balance by the due date, interest starts stacking up fast, making everyday purchases way more expensive over time. Used wisely, credit cards help build your financial reputation (your credit score), unlock rewards, and give you fraud protection; used recklessly, they can trap you in high‑interest debt that’s hard to escape. The real skill is learning to treat a credit card like a tool, not free money, your future self will thank you."
+        }
+    ]      
+   
+}
