@@ -12,7 +12,7 @@ try{
     if(!res.ok) throw new Error('Could not load lesson at this time')
     const data = await res.json()
 
-    //looks through the lessons data and find the lesson object that as the same Id located in query string
+    //looks through the lessons data and find the lesson object that has the same Id located in query string
     const specificLesson = data.lessons.find(item => item.id === lessonId)
     renderLesson(specificLesson)
 }catch(err){
@@ -27,7 +27,6 @@ const renderLesson =(lesson) =>{
         <h1>${lesson["lesson-title"]}</h1>
         <p class="lesson-tagline">${lesson["lesson-tagline"]}</p>
         <p>${lesson["content"]}</p>
-        <a class="back-to-home-link" href="index.html">Back to Home</a>
     `
 }
 

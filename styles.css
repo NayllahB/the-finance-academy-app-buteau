@@ -4,6 +4,24 @@
 }
 
 
+/* Navigation Styling */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: green;
+    padding: 10px;
+}
+
+nav a{ 
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+/* NOTES: 
+- Lets add animations and color changes when user hovers over nav links */
+
+
+/* Footer Styling */
 footer{
    position: fixed;
    left: 0;
@@ -14,3 +32,5 @@ footer{
    text-align: center;
    padding: 20px;
 }
+/* NOTES: 
+- Add elements to make this look like a REAL footer */
