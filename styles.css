@@ -20,6 +20,36 @@ nav a{
 /* NOTES: 
 - Lets add animations and color changes when user hovers over nav links */
 
+/* Home Page - Lesson Section */
+#lesson-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.home-lesson-card{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.home-lesson-section{
+    background-color: #f1eee8;
+    padding-top: 10px;
+}
+
+.home-lesson-section h2{
+    text-align: center;
+}
+
+
+
+
+
 
 /* Footer Styling */
 footer{
