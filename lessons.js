@@ -24,8 +24,8 @@ try{
 const renderLesson =(lesson) =>{
     const lessonSection = document.getElementById('lesson-details')
     lessonSection.innerHTML = `
-        <h1>${lesson["lesson-title"]}</h1>
-        <p class="lesson-tagline">${lesson["lesson-tagline"]}</p>
+        <h1>${lesson["title"]}</h1>
+        <p class="lesson-tagline">${lesson["tagline"]}</p>
         <p>${lesson["content"]}</p>
     `
 }
