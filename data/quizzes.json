@@ -1,0 +1,120 @@
+{
+    "quizzes": [
+        {
+            "lesson_id":"student-loan-basics",
+            "title": "Student Loan Basics Quiz",
+            "data": [
+                {
+                    "question":"Federal student loans are primarily used to pay for:",
+                    "options":[
+                        "Vacations and personal spending",
+                        "College expenses like tuition, housing, and books",
+                        "High-interest credit card debt",
+                        "Buying a car"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"What are the two main types of student loans?",
+                    "options":[
+                        "Government and Corporate",
+                        "Short-term and Long-term",
+                        "Subsidized and Unsibsidized",
+                        "Federal and Private"
+                    ],
+                    "answer": 3
+                },
+                {
+                    "question":"Which feature is commonly associated with federal student loans?",
+                    "options":[
+                        "No credit approval needed",
+                        "Reward points",
+                        "No repayment required",
+                        "Free money"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"Private student loans typically come from:",
+                    "options":[
+                        "Banks or private lenders",
+                        "The federal government",
+                        "High School",
+                        "Scholarship organizations"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"What determines the how much federal student loans a student receives?",
+                    "options":[
+                        "Credit score",
+                        "FAFSA",
+                        "GPA",
+                        "Vibes"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"What is interest?",
+                    "options":[
+                        "The additional cost of borrowing money",
+                        "The original loan amount",
+                        "Wack",
+                        "Interest does not exist"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"What happens to interest on an unsubsidized loan while you are in school?",
+                    "options":[
+                        "It pauses until graduation",
+                        "It is paid by the government",
+                        "It begins accruing immediately",
+                        "It is forgiven automatically"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "question":"Which loan type requires financial need to qualify?",
+                    "options":[
+                        "Direct Unsubsidized",
+                        "Direct Subsidized",
+                        "Parent PLUS",
+                        "Private Loan"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"Why are student loans not considered “free money”?",
+                    "options":[
+                        "They must be repaid with interest",
+                        "They can only be used for tuition",
+                        "They expire after four years",
+                        "They reduce your financial aid eligibility"
+                    ],
+                    "answer": 0
+                
+                },
+                {
+                    "question":"Which loan type covers your interest while you’re enrolled in school?",
+                    "options":[
+                        "Direct Unsubsidized",
+                        "Private Loan",
+                        "Direct Subsidized",
+                        "Parent PLUS Loan"
+                    ],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "lesson_id":"credit-card-basics",
+            "title": "What is a Credit Card?"
+        },
+        {
+            "lesson_id":"car-buying-basics",
+            "title": "How to Buy a Car?"
+        }
+    ]      
+   
+}

@@ -2,7 +2,7 @@
 //Called once user clicks on CTA buttons in lesson carousel on home page
 const navigateToLesson = async(lessonId) =>{
     try{
-        const res = await fetch('lessons.json')
+        const res = await fetch('./data/lessons.json')
         if(!res.ok) throw new Error('Could not load lesson at this time')
         const data = await res.json()
 
@@ -48,7 +48,7 @@ const loadLessonCards = async(lessonFiles) => {
     }
 }
 
-loadLessonCards('lessons.json')
+loadLessonCards('./data/lessons.json')
 
 
 // will listen for when the CTA button is clicked on lesson card. The corresponding lesson id will be pushed into navigate lesson function
