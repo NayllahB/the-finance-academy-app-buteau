@@ -46,7 +46,10 @@ nav a{
     text-align: center;
 }
 
-
+/* Student loan styling */
+ul, ol{
+    margin-left: 50px;
+}
 
 
 

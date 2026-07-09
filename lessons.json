@@ -2,7 +2,7 @@
     "lessons": [
         {
             "id":"student-loan-basics",
-            "title": "What are Student Loans?",
+            "title": "Student Loans",
             "summary": "Get a clear introduction to how borrowing for college works",
             "tagline": "The bane of every student's existence",
             "content_url":"/lesson-content/student-loan.html"
