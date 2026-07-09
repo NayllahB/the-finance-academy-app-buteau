@@ -100,3 +100,5 @@ var quizData = [
         answer: 'Direct Subsidized'
     }
 ]
+
+console.log(quizData)
