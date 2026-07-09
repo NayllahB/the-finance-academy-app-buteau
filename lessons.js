@@ -13,21 +13,16 @@ try{
     const data = await res.json()
 
     //looks through the lessons data and find the lesson object that has the same Id located in query string
-    const specificLesson = data.lessons.find(item => item.id === lessonId)
-    renderLesson(specificLesson)
+    const specificLessonDetails = data.lessons.find(item => item.id === lessonId)
+    renderLessonHTML(specificLessonDetails)
 }catch(err){
     document.getElementById('lesson-details').innerHTML = `<p>The following error has occurred: ${err.message}</p>`
 }
 }  
 
-//uses specific lesson data from loadLessonDetails function to render dynamically
-const renderLesson =(lesson) =>{
-    const lessonSection = document.getElementById('lesson-details')
-    lessonSection.innerHTML = `
-        <h1>${lesson["title"]}</h1>
-        <p class="lesson-tagline">${lesson["tagline"]}</p>
-        <p>${lesson["content"]}</p>
-    `
+//uses specific lesson details from loadLessonDetails function to render html pages dynamically
+const renderLessonHTML =(lessonContent) =>{
+    window.location.href = lessonContent.content_url
 }
 
 // calls function using the JSON file holding lesson data
