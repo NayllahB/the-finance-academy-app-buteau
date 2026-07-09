@@ -1,7 +1,17 @@
 
 //Called once user clicks on CTA buttons in lesson carousel on home page
-function navigateToLesson (lessonId){
-    window.location.href = `lessons.html?lesson=${lessonId}`
+const navigateToLesson = async(lessonId) =>{
+    try{
+        const res = await fetch('lessons.json')
+        if(!res.ok) throw new Error('Could not load lesson at this time')
+        const data = await res.json()
+
+        const specificLesson = data.lessons.find(item => item.id === lessonId)
+        window.location.href = specificLesson.content_url
+    }catch(err){
+        alert("The following error has occured: " + err.message)
+    }
+    
 }
 
 //This function is used to grab lesson info from JSON to the "Explore lessons" section of the home page
