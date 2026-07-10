@@ -51,10 +51,29 @@ ul, ol{
     margin-left: 50px;
 }
 
-.quiz-container{
-    background-color: antiquewhite;
+/* Quiz Styling */
+#quiz-container{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 100px;
 }
 
+.quiz-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#quiz-options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

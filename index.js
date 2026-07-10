@@ -7,7 +7,7 @@ const navigateToLesson = async(lessonId) =>{
         const data = await res.json()
 
         const specificLesson = data.lessons.find(item => item.id === lessonId)
-        window.location.href = specificLesson.content_url
+        window.location.href = `${specificLesson.content_url}?lessonId=${lessonId}`
     }catch(err){
         alert("The following error has occured: " + err.message)
     }
