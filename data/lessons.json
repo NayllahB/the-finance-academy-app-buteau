@@ -9,17 +9,17 @@
         },
         {
             "id":"credit-card-basics",
-            "title": "What is a Credit Card?",
+            "title": "Credit Card Basics",
             "summary": "Learn how credit cards really work so you can use them confidently without surprises",
             "tagline": "Because adulthood needed a plot twist",
-            "content_url":"/lesson-content/student-loan.html"
+            "content_url":"/lesson-content/credit-card.html"
         },
         {
             "id":"car-buying-basics",
-            "title": "How to Buy a Car?",
+            "title": "Car Buying Basics",
             "summary": "Understand how the car buying process actually works",
             "tagline": "Because nothing says I’m grown like signing something you barely understand",
-            "content_url":"./lesson-content/student-loan.html"
+            "content_url":"/lesson-content/car-buying.html"
         }
     ]      
    

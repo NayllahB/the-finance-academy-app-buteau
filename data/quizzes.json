@@ -109,11 +109,215 @@
         },
         {
             "lesson_id":"credit-card-basics",
-            "title": "What is a Credit Card?"
+            "title": "Credit Card Basics Quiz",
+            "data":[
+                {
+                    "question":"This is Question 1!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 2!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 3!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 4!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 5!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 6!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 7!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 8!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 9!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 10!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                }
+            ]
         },
         {
             "lesson_id":"car-buying-basics",
-            "title": "How to Buy a Car?"
+            "title": "Car Buying Basics Quiz",
+            "data":[
+                 {
+                    "question":"This is Question 1!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 2!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 3!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 4!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 5!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 6!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 7!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 8!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 9!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "question":"This is Question 10!",
+                    "options":[
+                        "This is the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!",
+                        "This is NOT the answer!!"
+                    ],
+                    "answer": 0
+                }
+            ]
         }
     ]      
    
