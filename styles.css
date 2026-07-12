@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -23,20 +24,30 @@ nav a{
 /* Home Page styling */
 
 .home-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .home-title{
     margin: 20px 0;
+    text-align: center;
 }
 
 .home-about-summary-section{
-    margin: 10px 0;
-    background-color: lightgray;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-about-summary-section img{
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.home-about-summary-section button{
+    margin-top: 10px;
 }
 
 #lesson-carousel{
@@ -45,14 +56,26 @@ nav a{
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    flex-wrap: wrap;
 }
 
 .home-lesson-card{
     width: 300px;
     text-align: center;
     background-color: lightgrey;
-    margin: 0px 10px;
+    width: 300px;
+    margin: 10px;
     padding: 10px;
+}
+
+.home-lesson-card-btn{
+    margin: 10px 0;
+}
+
+.home-lesson-card img{
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .home-lesson-section{
@@ -61,6 +84,13 @@ nav a{
 
 .home-lesson-section h2{
     text-align: center;
+}
+
+.reviews-container p{
+    margin: 10px 0;
+    background-color: lightgray;
+    padding: 10px;
+
 }
 
 /* Student loan styling */
@@ -92,13 +122,8 @@ ul, ol{
     align-items: center;
 }
 
-
-
 /* Footer Styling */
 footer{
-   position: fixed;
-   left: 0;
-   bottom: 0;
    width: 100%;
    background-color: green;
    color: white;
