@@ -98,6 +98,11 @@ ul, ol{
     margin-left: 50px;
 }
 
+.lesson-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* Quiz Styling */
 #quiz-container{
     background-color: green;
@@ -129,6 +134,34 @@ footer{
    color: white;
    text-align: center;
    padding: 20px;
+   margin-top: 20px;
 }
 /* NOTES: 
 - Add elements to make this look like a REAL footer */
+
+/* About Page Styling */
+.about-page-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contact Page Styling */
+form {
+  max-width: 500px;
+  margin: 150px auto;
+}
+
+fieldset {
+  padding: 30px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+}

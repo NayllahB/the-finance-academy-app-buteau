@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Try to change title dynamically -->
-    <title>Contact</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -19,7 +19,36 @@
 
     <!-- Body content location -->
     <main>
-        <h1>I am the Contact page</h1>
+        <h1 class="about-title">We want to hear from you</h1>
+
+        <form method="POST" id="form">
+            <!-- //API Key -->
+            <input type="hidden" name="access_key" value="17e678df-5583-4ec7-b336-18ca689a582d">
+
+            <!-- //Sets the Subject line -->
+            <input type="hidden" name="subject" value="New Submission from Web3Forms">
+
+            <!-- //Checks for bots -->
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+            <!-- Custom Form Data -->
+            <label for="user-email">Email</label>
+            <input type="email" name="email" required placeholder="Your Email">
+
+            <label for="name">First and Last Name</label>
+            <input type="text" name="name" required placeholder="Jane Doe">
+
+            <label for="phone-number">Phone Number</label>
+            <input type="text" name="phone" required placeholder="1234567890">
+
+            <label for="message">Tell us what you think!</label>
+            <textarea name="message" required placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
+
+            <div id="result"></div>
+        </form>
+
     </main>
 
     <!-- Footer content location -->
@@ -27,6 +56,6 @@
         <p>Developed By: Nayllah Buteau</p>
     </footer>
 
-    <script src="./index.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>
