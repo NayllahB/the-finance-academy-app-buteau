@@ -11,7 +11,7 @@ let quizDetailsGlobal = null
 //This function is used to grab specific quiz questions from JSON using lessonId
 const quizData = async(lessonId) => {
     try{
-        const res = await fetch('/data/quizzes.json')
+        const res = await fetch('../data/quizzes.json')
         if(!res.ok) throw new Error ('Could not find quiz questions')
         const data = await res.json()
 
