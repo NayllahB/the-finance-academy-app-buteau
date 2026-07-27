@@ -491,6 +491,146 @@ label{
     font-weight: 400;
 }
 
+/* lesson styling */
+.student-loan-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(images/college-students-2.jpeg);
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.student-loan-hero__text h1{
+    font-family: "butik-display-normal", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 55px;
+    letter-spacing: 2px;
+    color: var(--primary-white);
+}
+
+.student-loan-hero__text p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.starting-paragraph{
+    background-color: #527163;
+    padding: 30px 0;
+    color: var(--primary-white);
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main-lesson-content h2{
+    color: var(--breathe-green);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.main-lesson-content{
+    font-weight: 300;
+}
+
+.student-loan-quiz{
+    background-color: var(--breathe-green);
+    padding: 40px 0;
+}
+
+#quiz-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-white);
+    width: 600px;
+    border-radius: 10px;
+    padding: 30px 0;
+
+}
+
+.quiz-title{
+    color: var(--breathe-green);
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.quiz-question{
+    color: var(--breathe-green);
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+}
+
+#quiz-options-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-option-button{
+    border: 1px solid var(--breathe-green);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    width: 400px;
+}
+
+.quiz-option-button:hover{
+    background-color: var(--sage-green);
+    cursor: pointer;
+}
+
+.quiz-option-button.correct{
+    background-color: #d6e3b1;
+    border: 3px solid var(--primary-black);
+}
+
+.quiz-option-button.incorrect{
+    background-color: #fdc2b1;
+}
+
+#next-question-button{
+    text-decoration: underline;
+}
+
+#next-question-button:hover{
+    background-color: var(--sage-green);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.quiz-result{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 9px;
+    font-weight: 300px;
+}
+
+#retake-quiz-button{
+    background-color: var(--breathe-green);
+    color: var(--primary-white);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#retake-quiz-button:hover{
+    background-color: var(--sage-green);
+}
+
 /* Mobile responsive styling */
 @media (max-width: 990px){
     .home-about__container{
@@ -569,11 +709,37 @@ label{
     .about-founder__container p{
         margin: 0 25px;
     }
+
+    .main-lesson-content div{
+        margin: 0 10px;
+    }
+    .main-lesson-content h2{
+        text-align: center;
+    }
+    #quiz-container{
+        width: 400px;
+    }
+
+    .quiz-title{
+        font-size: 23px;
+    }
+
+    .quiz-question{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .quiz-option-button{
+        width: 300px;
+        text-align: center;
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 550px){
     .home-hero__text h1,
-    .contact-h1{
+    .contact-h1,
+    .student-loan-hero__text h1{
         font-size: 40px;
     }
 
@@ -598,7 +764,8 @@ label{
     .about-founder h2,
     .reviews-section h2,
     .home-about h2,
-    .core-values h2{
+    .core-values h2,
+    .main-lesson-content h2{
         font-size: 28px;
     }
 
@@ -626,5 +793,43 @@ label{
     textarea{
         width: 280px;
         height: 100px;
+    }
+
+    #quiz-container{
+        width: 350px;
+    }
+
+    .quiz-title{
+        font-size: 23px;
+    }
+
+    .quiz-question{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .quiz-option-button{
+        width: 180px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .main-lesson-content div{
+        margin: 0 20px;
+    }
+    .starting-paragraph p{
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 400px){
+
+    #quiz-container{
+        width: 300px;
+    }
+
+    .quiz-option-button{
+        width: 160px;
+        text-align: center;
+        font-size: 13px;
     }
 }

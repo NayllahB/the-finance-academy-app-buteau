@@ -63,9 +63,35 @@ quizContainer.addEventListener('click', (event)=> {
     const selectedAnswerIndex = Number(event.target.dataset.index)
     const correctAnswerIndex = quizDetailsGlobal.data[currentQuestion].answer
 
+    const optionsButtons = document.querySelectorAll(".quiz-option-button")
+
+    //will let me add css to highlight correct and incorrect answers
+   optionsButtons.forEach((button) => {
+        const buttonIndex = Number(button.dataset.index)
+        if (buttonIndex === correctAnswerIndex){
+            button.classList.add('correct')
+        }else{
+            button.classList.add('incorrect')
+        }
+        button.disabled = true
+    })
+
+    //if user cicks correct question, increase their score
     if(selectedAnswerIndex === correctAnswerIndex) {
         score++
     }
+
+    // add next button
+    const nextButton = document.createElement('button')
+    nextButton.id = "next-question-button"
+    nextButton.textContent = "Next"
+    quizContainer.appendChild(nextButton)
+})
+
+
+// if next button is clicked move to next question
+quizContainer.addEventListener('click',(event) => {
+    if(event.target.id !== "next-question-button") return
 
     currentQuestion++
 
@@ -78,7 +104,6 @@ quizContainer.addEventListener('click', (event)=> {
     }
 })
 
-//CHANGE: Let's make the ending more fun, allow local storage to keep score
 function endQuiz(){
     const total = quizDetailsGlobal.data.length
     const correct = score

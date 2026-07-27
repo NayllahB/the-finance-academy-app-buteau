@@ -5,7 +5,7 @@
             "title": "Student Loan Basics Quiz",
             "data": [
                 {
-                    "question":"Federal student loans are primarily used to pay for:",
+                    "question":" 1. Federal student loans are primarily used to pay for:",
                     "options":[
                         "Vacations and personal spending",
                         "College expenses like tuition, housing, and books",
@@ -15,7 +15,7 @@
                     "answer": 1
                 },
                 {
-                    "question":"What are the two main types of student loans?",
+                    "question":"2. What are the two main types of student loans?",
                     "options":[
                         "Government and Corporate",
                         "Short-term and Long-term",
@@ -25,7 +25,7 @@
                     "answer": 3
                 },
                 {
-                    "question":"Which feature is commonly associated with federal student loans?",
+                    "question":"3. Which feature is commonly associated with federal student loans?",
                     "options":[
                         "No credit approval needed",
                         "Reward points",
@@ -35,7 +35,7 @@
                     "answer": 0
                 },
                 {
-                    "question":"Private student loans typically come from:",
+                    "question":"4. Private student loans typically come from:",
                     "options":[
                         "Banks or private lenders",
                         "The federal government",
@@ -45,7 +45,7 @@
                     "answer": 0
                 },
                 {
-                    "question":"What determines the how much federal student loans a student receives?",
+                    "question":"5. What determines the amount of federal student loans a student receives?",
                     "options":[
                         "Credit score",
                         "FAFSA",
@@ -55,7 +55,7 @@
                     "answer": 1
                 },
                 {
-                    "question":"What is interest?",
+                    "question":"6. What is interest?",
                     "options":[
                         "The additional cost of borrowing money",
                         "The original loan amount",
@@ -65,7 +65,7 @@
                     "answer": 0
                 },
                 {
-                    "question":"What happens to interest on an unsubsidized loan while you are in school?",
+                    "question":"7. What happens to interest on an unsubsidized loan while you are in school?",
                     "options":[
                         "It pauses until graduation",
                         "It is paid by the government",
@@ -75,7 +75,7 @@
                     "answer": 2
                 },
                 {
-                    "question":"Which loan type requires financial need to qualify?",
+                    "question":"8. Which loan type requires financial need to qualify?",
                     "options":[
                         "Direct Unsubsidized",
                         "Direct Subsidized",
@@ -85,7 +85,7 @@
                     "answer": 1
                 },
                 {
-                    "question":"Why are student loans not considered “free money”?",
+                    "question":"9. Why are student loans not considered “free money”?",
                     "options":[
                         "They must be repaid with interest",
                         "They can only be used for tuition",
@@ -96,7 +96,7 @@
                 
                 },
                 {
-                    "question":"Which loan type covers your interest while you’re enrolled in school?",
+                    "question":"10. Which loan type covers your interest while you’re enrolled in school?",
                     "options":[
                         "Direct Unsubsidized",
                         "Private Loan",
