@@ -6,15 +6,17 @@
             "summary": "Get a clear introduction to how borrowing for college works",
             "tagline": "The bane of every student's existence",
             "content_url":"lesson-content/student-loan.html",
-            "card_image":"images/money.jpeg"
+            "card_image":"images/college-students-1.jpeg",
+            "card_image_alt":"college students smiling together"
         },
         {
             "id":"credit-card-basics",
             "title": "Credit Card Basics",
-            "summary": "Learn how credit cards really work so you can use them confidently without surprises",
+            "summary": "Learn to use credit cards confidently with no suprises",
             "tagline": "Because adulthood needed a plot twist",
             "content_url":"lesson-content/credit-card.html",
-            "card_image":"images/money.jpeg"
+            "card_image":"images/friends.jpeg",
+            "card_image_alt":"friends taking a selfie together"
         },
         {
             "id":"car-buying-basics",
@@ -22,7 +24,8 @@
             "summary": "Understand how the car buying process actually works",
             "tagline": "Because nothing says I’m grown like signing something you barely understand",
             "content_url":"lesson-content/car-buying.html",
-            "card_image":"images/money.jpeg"
+            "card_image":"images/car-buying.jpeg",
+            "card_image_alt":"Woman purchasing a car with car salesman"
         }
     ]      
    

@@ -4,60 +4,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/glh1rye.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <!-- This is where nav bar will be located -->
     <header>
-        <nav>
-            <a href="./index.html">Home</a> <!--remove this once you add logo (this will be link to homepage) -->
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
+       <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <!-- Logo / Home link -->
+                <a class="navbar-brand active" aria-current="page" href="index.html"><img src="images/Logo-green.svg" alt="Breathe Finance Academy Logo"></a>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar links / this will collapse when certain screen size is reached -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#lessons-section">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
         </nav>
     </header> 
 
-    <!-- Body content location -->
-    <main class="home-main">
-        <!-- This is where hero image, H1, and CTA resides -->
-        <section>
-            <h1 class="home-title">Money Shouldn't Be Complicated</h1>
+    <main>
+        <section class="home-hero">
+            <div class="home-hero__text container">
+                <h1>Money Shouldn't Be Complicated</h1>
+                <p>Because understanding your money should feel simple</p>
+                <a class="home-hero__cta" href="#lessons-section">Start Learning</a>
+            </div>
+        </section>
+
+        <!-- Quote carousel -->
+        <section id="quote-carousel" class="quote-carousel carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                <p class="quote-carousel__text">“Your only limit is your mind”</p>
+                </div>
+
+                <div class="carousel-item">
+                <p class="quote-carousel__text">“The mindest you carry shapes the life you create”</p>
+                </div>
+
+                <div class="carousel-item">
+                <p class="quote-carousel__text">“It's never too late to do better”</p>
+                </div>
+
+                <div class="carousel-item">
+                <p class="quote-carousel__text">“Financial freedom begins with intentional choices - not perfect ones”</p>
+                </div>
+
+            </div>
         </section>
           
         <!-- The summary version of about section. There should be a CTA the states "Learn More" -->
-        <section class="home-about-summary-section">
-            <div>
-                <img src="images/money.jpeg" alt="image of piggy bank">
+        <section class="home-about">
+            <h2>Sooo...What is Breathe?</h2>
+            <div class="home-about__container container">
+                <div>
+                    <img class="home-about__image" src="images/woman-breathe.jpeg" alt="image of piggy bank">
+                </div>
+                <div class="home-about__text">
+                    <p>Glad you asked! Breathe serves as a financial academic hub for young adults approaching adulthood, or anyone looking for a place to start their financial journey. We understand that personal finance can be stressful, especially when everyone seems to have a different opinion about how money “should” work. We’re here to remind you that it doesn’t have to feel that way. Money shouldn’t be stressful. Breathe creates a calm, clear space where financial basics are explained simply, without the extra confusing jargon. At the end of the day, we want to help you build the confidence and clarity you need to make informed decisions about <b>YOUR</b> money.</p>
+                    <a href='about.html'>Learn More</a>
+                </div>
             </div>
-            <div>
-                <h2>What is the Finance Academy?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt excepturi, voluptate ipsum sequi placeat numquam at corrupti nemo, repudiandae ea odit! Natus, facere perferendis. Excepturi cupiditate atque incidunt repellat eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex unde nulla voluptatum corrupti inventore assumenda delectus ratione laudantium distinctio in, rem quod facilis maxime soluta adipisci quisquam neque illo. Delectus!</p>
-                <button onclick="location.href='about.html'">Learn More</button>
-            </div>
-            
         </section>
 
-        <!-- A carasel of the lesson cards will go here -->
-        <section class="home-lesson-section">
+        <!-- Lessons Section -->
+        <section id="lessons-section" class="container">
             <h2>Lessons</h2>
             <div id="lesson-carousel"></div>
         </section>
         
-        <section class="home-reviews-section">
+        <section class="reviews-section">
             <h2>Reviews</h2>
-            <div class="reviews-container">
-                <p>“I used The Finance Academy because I was tired of feeling clueless about my student loans. The ‘Student Loan Basics’ lesson broke everything down in a way that finally made sense, no jargon, no judgment, just clarity. I actually understood interest rates for the first time. I walked away feeling confident enough to compare loan options on my own. This app made me feel like I wasn’t walking into adulthood blind.”</p>
-                <p>“I’ve always been nervous about credit cards, mostly because I didn’t want to mess up my credit score. The Finance Academy’s credit card module was a game changer. The examples were real, the quizzes actually helped me remember things, and the tips were practical, not generic stuff you hear everywhere. I used what I learned to choose a card that fits my lifestyle, and I’ve already seen my credit score go up. This app genuinely helped me get my financial life together.”</p>
-                <p>“I downloaded The Finance Academy while stressing over buying my first car. The ‘Car Buying Basics’ lesson was exactly what I needed. It explained dealership tactics, financing terms, and what to look for in a loan without making me feel dumb. I went into the dealership knowing what questions to ask, and I actually negotiated a better rate. I’m proud of myself, and honestly, I wouldn’t have done it without this app.”</p>
+            <div class="reviews-section__container container">
+                <div class="review-card">
+                    <p class="review-card__name">@Sarah-Jane</p>
+                    <p class="review-card_summary">“As a first‑gen college student, I always felt lost when it came to money. Breathe helped me finally understand my student loans without feeling overwhelmed. I feel way more prepared to make smart decisions now.”</p>
+                </div>
+                <div class="review-card">
+                     <p class="review-card__name">@jordanM</p>
+                    <p>“Starting my first full‑time job came with a lot of financial responsibilities I wasn’t ready for. I didn’t understand credit cards, budgeting, or how to manage my paycheck responsibly. Breathe broke everything down in a way that felt calm and doable. The lessons were short enough to fit into my busy schedule but still packed with clarity. I finally feel confident managing my money instead of avoiding it.”</p>
+                </div>
+                <div class="review-card">
+                    <p class="review-card__name">@Sofia</p>
+                    <p>“I was terrified of applying for my first apartment because I didn’t understand credit requirements. Breathe made the whole process feel simple and helped me get approved without stress.”</p>
+                </div>
+                <div class="review-card">
+                    <p class="review-card__name">@Marcus</p>
+                    <p>“After graduating, I realized how little I knew about real‑world finances. Breathe helped me understand interest, loans, and credit in a way school never did. The examples were relatable and easy to follow. It made adulthood feel a lot less intimidating.”</p>
+                </div>
+                <div class="review-card">
+                    <p class="review-card__name">@Kayleen</p>
+                    <p>“I work part‑time while finishing school, and money has always felt tight. The budgeting tips in Breathe helped me stretch my income without feeling deprived. It’s the first financial advice that actually clicked for me.”</p>
+                </div>
             </div>
         </section>
         
     </main>
 
     <!-- Footer content location -->
-    <footer>
-        <p>Developed By: Nayllah Buteau</p>
+    <footer class="home-footer-section">
+        <div class=" home-footer-section__container container">
+            <div>
+                <a href="index.html"><img class="footer-logo" src="images/Logo-green.svg" alt="Breathe Finance Academy Logo"></a>
+            </div>
+            <div>
+                <p class="footer-title">CONTACT US</p>
+                <P>123-456-7890</P>
+                <P>456 Freedom Drive SW, Orlando FL, 32817</P>
+            </div>
+            <div>
+                <p class="footer-title">FOLLOW US</p>
+                <a href=""><img class="social-icon" src="images/instagram.png" alt="Instagrm logo"></a>
+                <a href=""><img class="facebook-icon" src="images/facebook.webp" alt="Facebook logo"></a>
+                <a href=""><img class="social-icon" src="images/x.png" alt="X logo"></a>
+            </div>
+        </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
 </html>

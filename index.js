@@ -36,9 +36,9 @@ const loadLessonCards = async(lessonFiles) => {
             lessonCardButton.dataset.lesson = lesson.id
 
             lessonCard.innerHTML = `
-                <img src="${lesson.card_image}" alt="image of piggy bank">
-                <p>${lesson.title}</p>
-                <p>${lesson.summary}</p>
+                <img src="${lesson.card_image}" alt="${lesson.card_image_alt}">
+                <p class="home-lesson-card__title">${lesson.title}</p>
+                <p class="home-lesson-card__summary">${lesson.summary}</p>
             `
             lessonCard.appendChild(lessonCardButton)
             lessonCarousel.appendChild(lessonCard)
