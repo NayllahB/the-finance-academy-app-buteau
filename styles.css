@@ -505,7 +505,9 @@ label{
     text-align: center;
 }
 
-.student-loan-hero__text h1{
+.student-loan-hero__text h1,
+.credit-card-hero__text h1,
+.car-buying-hero__text h1{
     font-family: "butik-display-normal", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -514,7 +516,9 @@ label{
     color: var(--primary-white);
 }
 
-.student-loan-hero__text p{
+.student-loan-hero__text p,
+.credit-card-hero__text p,
+.car-buying-hero__text p{
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
@@ -544,7 +548,7 @@ label{
     font-weight: 300;
 }
 
-.student-loan-quiz{
+.lesson-quiz-container{
     background-color: var(--breathe-green);
     padding: 40px 0;
 }
@@ -571,7 +575,7 @@ label{
     color: var(--breathe-green);
     font-weight: 500;
     font-size: 17px;
-    text-align: left;
+    text-align: center;
 }
 
 #quiz-options-container{
@@ -595,12 +599,12 @@ label{
 }
 
 .quiz-option-button.correct{
-    background-color: #d6e3b1;
+    background-color: #b8cebf;
     border: 3px solid var(--primary-black);
 }
 
 .quiz-option-button.incorrect{
-    background-color: #fdc2b1;
+    background-color: #f7af99;
 }
 
 #next-question-button{
@@ -609,8 +613,8 @@ label{
 
 #next-question-button:hover{
     background-color: var(--sage-green);
-    padding: 10px;
-    border-radius: 15px;
+    padding: 3px 20px;
+    border-radius: 8px;
 }
 
 .quiz-result{
@@ -629,6 +633,63 @@ label{
 
 #retake-quiz-button:hover{
     background-color: var(--sage-green);
+}
+
+.credit-card-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/citi.jpeg);
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.example{
+    background-color: var(--breathe-green);
+    color: var(--primary-white);
+    padding: 10px 8px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.car-buying-hero{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/car-buying2.jpeg);
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.new-used-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-used-container__card{
+    background-color: var(--warm-linen);
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 375px;
+}
+
+.new-used-container__card p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 /* Mobile responsive styling */
@@ -739,7 +800,9 @@ label{
 @media (max-width: 550px){
     .home-hero__text h1,
     .contact-h1,
-    .student-loan-hero__text h1{
+    .student-loan-hero__text h1
+    .credit-card-hero__text h1,
+    .car-buying-hero__text h1{
         font-size: 40px;
     }
 

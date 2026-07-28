@@ -112,102 +112,102 @@
             "title": "Credit Card Basics Quiz",
             "data":[
                 {
-                    "question":"This is Question 1!",
+                    "question":"1. What is a credit card?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "A card that pulls money directly from your bank acount",
+                        "A revolving line of credit you can borrow from repeatedly",
+                        "A prepaid card with a fixed balance",
+                        "A card used only for emergencies"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"2. Which statement best describes how a credit card differs from a debit card?",
+                    "options":[
+                        "Debit cards charge interest, credit cards do not",
+                        "Credit cards borrow money from a lender, debit cards use your own money",
+                        "Credit cards can only be used online",
+                        "Debit cards improve your credit score"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"3 .What happens if you don’t pay your credit card balance in full?",
+                    "options":[
+                        "Nothing — the balance simply rolls over",
+                        "The card automatically closes",
+                        "Interest is added to the remaining balance",
+                        "Your credit limit increases"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "question":"4. Which of the following is a benefit of using credit cards responsibly?",
+                    "options":[
+                        "Guaranteed approval for future loans",
+                        "Building credit history",
+                        "Unlimited spending",
+                        "No need to budget"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "question":"5. Which feature makes credit cards appealing for everyday purchases?",
+                    "options":[
+                        "Cashback, travel points, and rewards",
+                        "No spending limit",
+                        "No monthly payments",
+                        "Guaranteed fraud protection for all purchases"
                     ],
                     "answer": 0
                 },
                 {
-                    "question":"This is Question 2!",
+                    "question":"6. Why are high interest rates considered a major concern?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Interest only applies to purchases over $500",
+                        "Interest can make balances grow quickly if not paid in full",
+                        "Interest is optional",
+                        "Interest only applies during the first year"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 3!",
+                    "question":"7. In the example given, why can a $500 balance turn into $600 or more over time?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Because the credit card company adds random fees",
+                        "Because the user keeps spending",
+                        "Because interest continues to grow on the unpaid balance",
+                        "Because the credit limit increases"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 4!",
+                    "question":"8. What is a common risk associated with easy access to borrowed money?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Higher credit limits",
+                        "Overspending",
+                        "Automatic savings",
+                        "Lower interest rates"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 5!",
+                    "question":"10. What is the most important takeaway about using credit cards?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Everyone must use credit cards to be financially successful",
+                        "Credit cards are the only way to build credit",
+                        "Credit cards are just a tool - responsible use depends on the individual",
+                        "Debit cards should never be used"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 6!",
+                    "question":"Should you get a credit card?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
-                    ],
-                    "answer": 0
-                },
-                {
-                    "question":"This is Question 7!",
-                    "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
-                    ],
-                    "answer": 0
-                },
-                {
-                    "question":"This is Question 8!",
-                    "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
-                    ],
-                    "answer": 0
-                },
-                {
-                    "question":"This is Question 9!",
-                    "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
-                    ],
-                    "answer": 0
-                },
-                {
-                    "question":"This is Question 10!",
-                    "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "That's for me to decide!",
+                        "No",
+                        "Yes",
+                        "Maybe?"
                     ],
                     "answer": 0
                 }
@@ -218,104 +218,104 @@
             "title": "Car Buying Basics Quiz",
             "data":[
                  {
-                    "question":"This is Question 1!",
+                    "question":"1. What is a difference between new and used cars?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "New cars are always cheaper",
+                        "Used cars never come with warranties",
+                        "New cars have no previous owners; used cars do",
+                        " Used cars always have mechanical issues"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 2!",
+                    "question":"2. Which of the following is a benefit of buying a new car?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Lower price",
+                        "Full warranties and latest features",
+                        "Slower depreciation",
+                        "Guaranteed low insurance"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 3!",
+                    "question":"3. Which of the following is a benefit of buying a used car?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "No previous owners",
+                        "Higher price",
+                        "Slower depreciation",
+                        "Guaranteed dealership financing"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 4!",
+                    "question":"4. What does MSRP represent?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "The price the dealership paid",
+                        "The price after taxes and fees",
+                        "The manufacturer’s suggested retail price",
+                        "The lowest price a car can be sold for"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 5!",
+                    "question":"5. What is the Out‑the‑Door Price (OTD)?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "The price before any fees",
+                        "The price including taxes, fees, and add‑ons",
+                        "The price after depreciation",
+                        "The price the dealership paid"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 6!",
+                    "question":"6. What does depreciation mean in car buying?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "How much value a car gains over time",
+                        "How much value a car loses over time",
+                        "The cost of car insurance",
+                        "The price of dealership fees"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 7!",
+                    "question":"7. In the example given, why does a $30,000 new car drop to $24,000–$25,000 immediately? ",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "The dealership adds extra fees",
+                        "The car becomes used the moment it leaves the lot",
+                        "The car loses its warranty",
+                        "The buyer changes the loan terms"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 8!",
+                    "question":"8. What is the best way to purchase a car (in Breathe's opinion)?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "Financing with a long loan term",
+                        "Leasing the car",
+                        "Paying in cash",
+                        "Financing through the dealership only"
                     ],
-                    "answer": 0
+                    "answer": 2
                 },
                 {
-                    "question":"This is Question 9!",
+                    "question":"9. Why is a larger down payment helpful when financing a car?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "It increases your loan amount",
+                        "It reduces your loan amount and interest",
+                        "It eliminates monthly payments",
+                        "It guarantees a lower insurance rate"
                     ],
-                    "answer": 0
+                    "answer": 1
                 },
                 {
-                    "question":"This is Question 10!",
+                    "question":"Which is better to purchase: New or Used?",
                     "options":[
-                        "This is the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!",
-                        "This is NOT the answer!!"
+                        "New",
+                        "Used",
+                        "Neither, just walk",
+                        "Which ever works best for my financial situation"
                     ],
-                    "answer": 0
+                    "answer": 3
                 }
             ]
         }
