@@ -8,10 +8,6 @@
     --warm-linen: #f1eee8;
 }
 
-*{
-    font-family: roboto, sans-serif;
-}
-
 /* Navbar styling */
 .navbar-brand img{
     height: 40px;
@@ -128,7 +124,6 @@
 
 .home-about h2{
     color: var(--primary-white);
-    font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
@@ -173,7 +168,6 @@
 #lessons-section h2{
     text-align: center;
     color: var(--breathe-green);
-    font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
@@ -258,7 +252,6 @@ button{
 .reviews-section h2{
     text-align: center;
     color: var(--primary-white);
-    font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
@@ -407,7 +400,6 @@ label{
 }
 
 .about-mission h2{
-    font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 35px;
